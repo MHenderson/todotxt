@@ -2,8 +2,6 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -13,7 +11,11 @@ knitr::opts_chunk$set(
   message = FALSE
 )
 ```
+
 # todotxt
+
+[![Travis build status](https://travis-ci.org/MHenderson/todotxt.svg?branch=master)](https://travis-ci.org/MHenderson/todotxt)
+[![Coverage status](https://codecov.io/gh/MHenderson/todotxt/branch/master/graph/badge.svg)](https://codecov.io/github/MHenderson/todotxt?branch=master)
 
 [Todo.txt](http://todotxt.org/) is a
 [standard](https://github.com/todotxt/todo.txt) for text-based todo lists.
