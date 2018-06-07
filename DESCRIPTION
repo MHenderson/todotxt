@@ -15,6 +15,7 @@ Imports:
   magrittr,
   purrr,
   reticulate,
+  roomba
 Remotes:
   ropenscilabs/roomba
 Depends: 
