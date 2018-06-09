@@ -17,7 +17,7 @@ addons:
       - python3
 
 before_install:
-  - pip install numpy todotxtio
+  - pip3 install numpy todotxtio
 
 env:
  global:
