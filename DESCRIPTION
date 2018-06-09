@@ -2,7 +2,8 @@ Package: todotxt
 Type: Package
 Title: Parse todo.txt files
 Version: 0.1.0
-Author: Matthew Henderson
+Authors@R: c(
+    person("Matthew", "Henderson", , "matthew.james.henderson@gmail.com", role = c("aut", "cre"))
 Maintainer: Matthew Henderson <matthew.james.henderson@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
