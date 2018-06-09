@@ -17,7 +17,11 @@ addons:
       - python3
 
 before_install:
-  - pip3 install numpy todotxtio
+  - sudo apt-get install python3-pip
+  - sudo pip3 install --upgrade pip
+  - sudo pip3 install numpy todotxtio
+  #- sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+  - sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
 
 env:
  global:
