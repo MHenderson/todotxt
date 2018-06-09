@@ -21,4 +21,5 @@ Remotes:
 Depends: 
     R (>= 3.1)
 Suggests: 
-    covr
+    covr,
+    testthat
