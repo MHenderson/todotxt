@@ -11,6 +11,11 @@ r:
 - release
 - devel
 
+addons:
+  apt:
+    packages:
+      - python3
+
 before_install:
   - pip install numpy todotxtio
 
