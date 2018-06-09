@@ -11,5 +11,16 @@ r:
 - release
 - devel
 
+before_install:
+  - pip install numpy todotxtio
+
+env:
+ global:
+   - CRAN: http://cran.rstudio.com
+
+r_packages:
+   - testthat
+   - reticulate
+
 after_success:
   - Rscript -e 'covr::codecov()'
