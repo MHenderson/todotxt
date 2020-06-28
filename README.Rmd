@@ -38,7 +38,7 @@ devtools::install_github("MHenderson/todotxt")
 ```
 
 ```{r, echo = FALSE}
-reticulate::use_python("/usr/bin/python3")
+reticulate::use_python("/usr/bin/python3", required = TRUE)
 ```
 
 ```{r}
